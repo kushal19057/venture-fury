@@ -1,0 +1,40 @@
+.header {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.search-bar {
+    width: 30%;
+    padding: 2rem;
+}
+
+.app-title {
+    font-size: 2rem;
+    padding: 0 2rem;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 0.25rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    color: #6b6b6b;
+}
+
+.user-info {
+    box-sizing: border-box;
+    height: 8vh;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.image {
+    margin-left: 2rem;
+    height: 80%;
+}
