@@ -1,2 +1,2 @@
 # venture-fury
-code fury hackathon submission
+UVCE code fury 5.0 hackathon submission
