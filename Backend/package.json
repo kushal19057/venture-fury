@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/index.js"
+    "dev": "SET NODE_ENV=development&& nodemon -r dotenv-flow/config src/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/kushal19057/venture-fury#readme",
   "devDependencies": {
+    "dotenv": "^8.2.0",
+    "dotenv-flow": "^3.2.0",
     "nodemon": "^2.0.19"
   },
   "dependencies": {

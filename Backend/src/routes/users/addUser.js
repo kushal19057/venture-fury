@@ -1,5 +1,6 @@
 const express = require("express");
 const router = express.Router();
+const bcrypt = require("bcrypt");
 const { nanoid } = require("nanoid");
 const models = require("../../db/models");
 
@@ -10,7 +11,7 @@ router.post("/addUser", async (req, res) => {
     const encryptRounds = 12;
     const encryptedPassword = bcrypt.hashSync(password, encryptRounds);
 
-    const newUser = models.User.create({
+    const newUser = await models.User.create({
       user_id: nanoid(14),
       user_email: email,
       password: encryptedPassword,

@@ -7,7 +7,7 @@ router.post("/addProduct", async (req, res) => {
   try {
     const { userId, productName, shortDesc, longDesc, videoUrl } = req.body;
     
-    const newProduct = models.Product.create({
+    const newProduct = await models.Product.create({
       product_id: nanoid(14),
       user_id: userId,
       product_name: productName,
