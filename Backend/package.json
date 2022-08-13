@@ -1,0 +1,25 @@
+{
+  "name": "venture-fire",
+  "version": "1.0.0",
+  "description": "uvce code fure 5.0 submission",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kushal19057/venture-fury.git"
+  },
+  "author": "raghav-dwivedi, kushal-juneja, khush-ramdev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kushal19057/venture-fury/issues"
+  },
+  "homepage": "https://github.com/kushal19057/venture-fury#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
