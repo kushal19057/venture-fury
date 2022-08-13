@@ -5,9 +5,9 @@ UVCE - code fury 5.0 hackathon submission
 
 ---
 
-👑Team Name : dumpsterfire
+👑 Team Name : dumpsterfire
 
-🐼Team Member Details :
+🐼 Team Member Details :
 - Khush Ramdev 
 - Kushal Juneja 
 - Raghav Dwivedi 
@@ -24,6 +24,9 @@ By a subscription based model, we allow founders to approach professional mentor
 
 Investors are invited to go through the platform along with data driven user engagement metrics to understand the popularity and feasibility of a product.
 
-The general users can register on the platform to follow creators and get live updates on their activities (#PUSH-NOTIFICATIONS), get product recommendations based on past interests (#SEO), chat with product founders (#CHAT), upvote interesting products and be part of this emerging community.
+The general users can register on the platform to follow creators and get live updates on their activities (#PUSH-NOTIFICATIONS), get product recommendations based on past interests (#SEO), chat with creators (#CHAT), upvote interesting products and be part of this emerging community.
+
+One-on-one chat with product founders is enabled only for the verified Investors after a subscription payment.
 
 In conclusion, we have built a feature rich and interactive platform catering the needs of both product founders and investors. We hope the community will use our product and come back with constructive comments. Thanks!
+
